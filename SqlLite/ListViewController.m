@@ -19,6 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
   array =   [DBManager getAllRecordsFromUserDetail:@"select * from userdetails"];
+    
+    
 
     // Do any additional setup after loading the view.
 }
